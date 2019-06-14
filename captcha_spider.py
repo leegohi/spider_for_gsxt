@@ -203,7 +203,7 @@ class GT:
         response=self.session.get(url,headers=headers,params=params)
     def search_test(self):
         params={
-         "searchword": "成都信通"
+         "searchword": "腾讯"
         }
         headers={
          "Host": "www.gsxt.gov.cn",
